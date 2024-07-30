@@ -1,0 +1,179 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    padding: 20px;
+    border-bottom: 2px solid #ddd;
+}
+
+.header-content {
+    text-align: center;
+}
+
+.header-content h1 a {
+    text-decoration: none;
+    color: #333;
+    font-size: 2.5em;
+}
+
+.header-content p {
+    font-size: 1.2em;
+}
+
+.header-content .actions {
+    margin: 20px 0;
+}
+
+.header-content .button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1em;
+    color: #fff;
+    text-decoration: none;
+    background: #007bff;
+    border-radius: 5px;
+}
+
+.header-content .button.primary {
+    background: #28a745;
+}
+
+/*  */
+
+header .header-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+nav {
+    background: #00050b;
+    color: #fff;
+    height: 50px;
+    text-align: center;
+  
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+nav ul li p:hover {
+    background: #e6e8eb;
+    border-radius: 5px;
+    color: #333;
+    padding: 2px;
+}
+
+main {
+    padding: 20px;
+    background: #fff;
+}
+
+.wrapper {
+    padding: 20px;
+}
+
+.wrapper.style2.special {
+    background: #f9f9f9;
+}
+
+.wrapper .icons.major,
+.wrapper .icons.labeled {
+    list-style: none;
+    padding: 0;
+    display: none; /* Hide all icons */
+}
+
+.spotlight {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.spotlight .image {
+    flex: 1;
+}
+
+.spotlight .content {
+    flex: 2;
+    padding: 0 20px;
+}
+
+.spotlight img {
+    max-width: 100%;
+    height: auto;
+}
+
+.special .icons.labeled li {
+    display: none; /* Hide labeled icons */
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer .icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer .icons li {
+    margin: 0 10px;
+}
+
+footer .icons li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+footer .icons li a:hover {
+    color: #f7f8f9;
+}
+
+footer .copyright {
+    margin-top: 10px;
+}
+
+/* Center the text within the header.major */
+header.major {
+    text-align: center;
+}
+
+.short-image {
+    max-height: 200px;
+    width: auto;
+}
